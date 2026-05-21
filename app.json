@@ -38,7 +38,14 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      [
+    "@jamsch/expo-speech-recognition",
+    {
+      "microphonePermission": "Allow $(PRODUCT_NAME) to use the microphone",
+      "speechRecognitionPermission": "Allow $(PRODUCT_NAME) to use speech recognition"
+    }
+  ]
     ],
     "experiments": {
       "typedRoutes": true,
